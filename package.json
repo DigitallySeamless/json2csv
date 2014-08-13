@@ -34,8 +34,8 @@
     "url": "https://github.com/DigitallySeameless/json2csv"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "format": "node ./node_modules/js-beautify/js/bin/js-beautify.js lib/json2csv.js test/test.js package.json -r --config js-beautify.json"
+    "test": "grunt test",
+    "format": "grunt format"
   },
   "dependencies": {
     "commander": "~1.0.5",
