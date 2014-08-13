@@ -2,7 +2,7 @@
 
 Converts json into csv with column titles and proper line endings. Can be used as a module and from the command line.
 
-[![Build Status](https://travis-ci.org/DigitallySeamless/json2csv.png)](https://travis-ci.org/DigitallySeamless/json2csv)
+[![Build Status](https://travis-ci.org/DigitallySeamless/json2csv.svg?branch=master)](https://travis-ci.org/DigitallySeamless/json2csv)
 
 **Originally zemirco/json2csv** - [see zemirco/json2csv issue #26](https://github.com/zemirco/json2csv/issues/26#issue-21468863)
 
