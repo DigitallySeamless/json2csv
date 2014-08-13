@@ -2,9 +2,9 @@
 
 Converts json into csv with column titles and proper line endings. Can be used as a module and from the command line.
 
-[![Build Status](https://travis-ci.org/zemirco/json2csv.png)](https://travis-ci.org/zemirco/json2csv)
+[![Build Status](https://travis-ci.org/DigitallySeamless/json2csv.png)](https://travis-ci.org/DigitallySeamless/json2csv)
 
-**Deprecated: No time for maintenance** - [see issue #26](https://github.com/zemirco/json2csv/issues/26#issue-21468863)
+**Originally zemirco/json2csv** - [see zemirco/json2csv issue #26](https://github.com/zemirco/json2csv/issues/26#issue-21468863)
 
 ## How to use
 
@@ -186,7 +186,7 @@ carModel,price,color
 $ json2csv -i input.json -f carModel,price,color -p
 ```
 
-![Screenshot](https://s3.amazonaws.com/zeMirco/github/json2csv/json2csv-pretty.png)
+![Screenshot](http://cdn.digitallyseamless.com/github.com/DigitallySeamless/json2csv.screenshot.png)
 
 #### Input file, specify fields and write to file
 
@@ -293,12 +293,12 @@ See Testing and Formatting json2csv above.
 
 ## But I want streams!
 
-Check out my other module [json2csv-stream](https://github.com/zeMirco/json2csv-stream). It transforms an incoming
+Check out Mirco Zeiss's module [json2csv-stream](https://github.com/zeMirco/json2csv-stream). It transforms an incoming
 stream containing `json` data into an outgoing `csv` stream.
 
 ## License
 
-Copyright (C) 2012 [Mirco Zeiss](mailto: mirco.zeiss@gmail.com)
+Copyright (C) 2014 [Digitally Seamless](http://digitallyseamless.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
